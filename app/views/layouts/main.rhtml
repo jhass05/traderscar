@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TradersCar - Importacion directa de vehiculos originales</title>
+<%= stylesheet_link_tag 'style' %>
+
+</head>
+
+<body>
+<div id="banner">
+<%= javascript_include_tag 'banner'%>
+</div>
+<div id="vacio">
+</div>
+
+<div id="nav">
+<%= image_tag "traders4.gif" %>
+
+  <ol id="navlinks">
+     <li><a href="">Inicio</a></li>
+     <li><a href"">Nuestra Empresa</a></li>
+     <li><a href"">Servicios</a></li>
+     <li><a href"">Vehiculos</a></li>
+     <li><a href"">Repuestos y Accesorios</a></li>
+     <li><a href"">Contacto</a></li>
+     <li><%= image_tag "traderslogo2.gif", :width => "100", :height => "29" %></li>
+  </ol>
+     
+
+</div>
+
+<div id="content">
+<%= yield%>
+</div>
+
+<div id="fotter">
+
+</div>
+
+</body>
+</html>
